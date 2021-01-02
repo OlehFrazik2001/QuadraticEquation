@@ -1,0 +1,112 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'quadroot.ui'
+#
+# Created by: PyQt5 UI code generator 5.10.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(249, 296)
+        MainWindow.setStyleSheet("")
+        MainWindow.setFixedSize(249, 296)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(10, 160, 231, 81))
+        font = QtGui.QFont()
+        font.setPointSize(18)
+        self.pushButton.setFont(font)
+        self.pushButton.setStyleSheet("color:rgb(0, 0, 0);\n"
+"background:rgb(114, 159, 207);\n"
+"border-style: outset;\n"
+"border-radius: 5px\n"
+"")
+        self.pushButton.setObjectName("pushButton")
+        self.a = QtWidgets.QLineEdit(self.centralwidget)
+        self.a.setGeometry(QtCore.QRect(10, 20, 40, 50))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.a.setFont(font)
+        self.a.setText("")
+        self.a.setObjectName("a")
+        self.root = QtWidgets.QLabel(self.centralwidget)
+        self.root.setGeometry(QtCore.QRect(10, 70, 231, 51))
+        font = QtGui.QFont()
+        font.setPointSize(16)
+        self.root.setFont(font)
+        self.root.setObjectName("root")
+        self.b = QtWidgets.QLineEdit(self.centralwidget)
+        self.b.setGeometry(QtCore.QRect(92, 20, 40, 50))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.b.setFont(font)
+        self.b.setText("")
+        self.b.setObjectName("b")
+        self.c = QtWidgets.QLineEdit(self.centralwidget)
+        self.c.setGeometry(QtCore.QRect(170, 20, 40, 50))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.c.setFont(font)
+        self.c.setStyleSheet("")
+        self.c.setText("")
+        self.c.setObjectName("c")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(135, 20, 41, 50))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.label.setFont(font)
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(50, 20, 41, 50))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.label_2.setFont(font)
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(self.centralwidget)
+        self.label_3.setGeometry(QtCore.QRect(70, 20, 16, 17))
+        font = QtGui.QFont()
+        font.setPointSize(15)
+        self.label_3.setFont(font)
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(self.centralwidget)
+        self.label_4.setGeometry(QtCore.QRect(211, 20, 41, 50))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.label_4.setFont(font)
+        self.label_4.setObjectName("label_4")
+        self.pushButton.raise_()
+        self.a.raise_()
+        self.label.raise_()
+        self.label_2.raise_()
+        self.label_3.raise_()
+        self.label_4.raise_()
+        self.b.raise_()
+        self.root.raise_()
+        self.c.raise_()
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 249, 22))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.pushButton.setText(_translate("MainWindow", "Розв\'язати рівняння"))
+        self.root.setText(_translate("MainWindow", "TextLabel"))
+        self.label.setText(_translate("MainWindow", "X+"))
+        self.label_2.setText(_translate("MainWindow", "X +"))
+        self.label_3.setText(_translate("MainWindow", "2"))
+        self.label_4.setText(_translate("MainWindow", "=0"))
+
